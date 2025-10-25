@@ -32,7 +32,7 @@ npm install -g @vue/cli
 1. Clone o repositório (ou use a pasta que criou):
 
 ```bash
-git clone https://github.com/seu-usuario/gerenciador-tarefas.git
+git clone https://github.com/LadyJessie19/MeineTask.git
 cd gerenciador-tarefas
 ```
 

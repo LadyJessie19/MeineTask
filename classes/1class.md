@@ -1,11 +1,4 @@
-Claro! Aqui está o conteúdo formatado como um `README.md`, pronto para ser usado em um projeto Vue.js:
-
----
-
-````markdown
 # 📝 Gerenciador de Tarefas Reativo (Vue.js + Vuex)
-
-Olá! Excelente iniciativa em começar com o **README**. É uma prática essencial para qualquer projeto profissional, pois documenta o ambiente e o processo de _setup_.
 
 Este é o projeto final do curso "Vue.js Full-Stack Básico", com foco em **Vue.js**, **Vuex**, **Vuetify**, **Vue Router** e **Axios**.
 
@@ -60,7 +53,6 @@ Instale a Vue CLI globalmente:
 ```bash
 npm install -g @vue/cli
 ```
-````
 
 Verifique a instalação:
 
@@ -134,73 +126,7 @@ export default {
 </style>
 ```
 
----
-
-### 🧾 4. Exercício: Construção do README (20 min)
-
-**Melhor Prática:** O `README.md` é o primeiro ponto de contato com o seu projeto.
-
-#### Estrutura Sugerida
-
-````markdown
-# 📝 Gerenciador de Tarefas Reativo (Vue.js + Vuex)
-
-Este é o projeto final do curso "Vue.js Full-Stack Básico" com foco em **Vue.js**, **Vuex**, **Vuetify**, **Vue Router** e **Axios**.
-
-## 🚀 Funcionalidades
-
-- CRUD Completo (Criar, Ler, Atualizar, Deletar) de Tarefas.
-- Gerenciamento de estado global com Vuex.
-- Interface moderna e responsiva com Vuetify (Material Design).
-- Simulação de integração com API (usando Axios).
-
-## 🛠️ Tecnologias Utilizadas
-
-- [Vue.js 2/3](https://vuejs.org/)
-- [Vuex](https://vuex.vuejs.org/)
-- [Vue Router](https://router.vuejs.org/)
-- [Vuetify](https://vuetifyjs.com/en/)
-- [Axios](https://axios-http.com/docs/intro)
-
-## ⚙️ Configuração do Projeto
-
-### Pré-requisitos
-
-Tenha o [Node.js](https://nodejs.org/) e a Vue CLI instalados:
-
-```bash
-npm install -g @vue/cli
-```
-````
-
-### Instalação e Execução
-
-1. Clone o repositório (ou use a pasta que criou):
-
-```bash
-git clone https://github.com/seu-usuario/gerenciador-tarefas.git
-cd gerenciador-tarefas
-```
-
-2. Instale as dependências:
-
-```bash
-npm install
-```
-
-3. Inicie o servidor de desenvolvimento:
-
-```bash
-npm run serve
-```
-
-Acesse em `http://localhost:8080/`.
-
----
-
 _Próximo Capítulo: Componentização e Props._
-
-````
 
 ---
 
@@ -210,7 +136,7 @@ _Próximo Capítulo: Componentização e Props._
 
 ```bash
 npm run serve
-````
+```
 
 2. Acesse: [http://localhost:8080/](http://localhost:8080/)
    (Página em branco confirma que o setup está correto.)
@@ -226,10 +152,3 @@ git commit -m "Capítulo 1: Setup do Projeto e Estrutura Inicial"
 ---
 
 🎉 **Fim da Aula 1.** Seu ambiente está configurado, as ferramentas principais selecionadas, e o projeto está pronto para a próxima fase: **Componentização**!
-
-```
-
----
-
-Se quiser, posso gerar esse README direto em arquivo `.md` ou converter para PDF. Deseja isso?
-```

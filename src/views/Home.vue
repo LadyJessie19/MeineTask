@@ -1,6 +1,12 @@
 <template>
   <div class="home">
     <h1>Minhas Tarefas</h1>
+
+    <p class="status">
+      Você tem <strong>{{ tarefasPendentes }}</strong> tarefas pendentes de um
+      total de {{ totalConcluidas }}.
+    </p>
+
     <TaskItem v-for="t in tarefas" :key="t.id" :tarefa="t" />
   </div>
 </template>
@@ -16,6 +22,15 @@ export default {
     return {
       tarefas: tasks,
     };
+  },
+  computed: {
+    tarefasPendentes() {
+      const pendentes = this.tarefas.filter((item) => !item.concluida);
+      return pendentes.length;
+    },
+    totalConcluidas() {
+      return this.tarefas.length;
+    },
   },
 };
 </script>
